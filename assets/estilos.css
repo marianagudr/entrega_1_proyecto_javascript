@@ -1,0 +1,256 @@
+h1 {
+    color: #1f6e72;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 20px 10px; }
+  
+  .subtitulos {
+    color: #1f6e72;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 20px 10px; }
+  
+  .parrafos {
+    margin: 10px 0px 15px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #001836; }
+  
+  .textoPasos {
+    color: #222668;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-self: stretch;
+    margin: 10px 20px 20px 20px; }
+  
+  .subtitulosBody {
+    color: #001836;
+    font-size: 1.7rem;
+    font-family: 'Berkshire Swash', cursive;
+    margin: 20px 15px 0 15px;
+    padding: 20px 0 0 0;
+    justify-self: stretch; }
+  
+  .parrafos-2 {
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: #001836;
+    justify-self: stretch; }
+  
+  .parrafos-3 {
+    color: #001836;
+    font-size: 1.3rem; }
+  
+  .subtitulos-tu-mapa {
+    color: #001836;
+    font-size: 1.7rem;
+    font-family: 'Berkshire Swash', cursive; }
+  
+  /* Estilo del body*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif; }
+  
+  /* Estilos Footer */
+  .pie {
+    background-image: url(../img/fondo_footer_final.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  
+  .pie-2 {
+    color: #f5f6fa;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none; }
+    .pie-2 ul {
+      list-style: none; }
+  
+  .email {
+    width: 20px; }
+  
+  .tele {
+    width: 20px; }
+  
+  .mis-redes {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    margin-top: 80px; }
+  
+  .redes {
+    width: 40px;
+    margin: 20px; }
+  
+  .pie-3 {
+    background: linear-gradient(90deg, #1e6c70 0%, #043667 31%, #0a1737 100%);
+    background-size: cover;
+    color: #f5f6fa;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px; }
+  
+  .footer_lista {
+    list-style: none;
+    padding-top: 50px; }
+    .footer_lista a:hover {
+      color: #1f6e72; }
+  
+  .footer_lista_texto {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f5f6fa; }
+  
+  /* Botón formulario */
+  .enviar {
+    display: flex;
+    justify-content: center; }
+  
+  .boton-enviar {
+    background-color: #1f6e72;
+    color: #f5f6fa;
+    margin: 20px 0 60px 0; }
+  
+  /* Mobile */
+  @media only screen and (max-width: 767px) {
+    .logo_nav {
+      width: 120px; }
+    .nav-fuente {
+      font-size: 0.9rem; }
+    .contenedor-pasos {
+      margin-bottom: 10px; }
+    .overlay {
+      margin-bottom: 10px; }
+    .text-pasos {
+      font-size: 0.9rem; }
+    .numeros {
+      font-size: 1rem; }
+    .contenedorFotos {
+      margin-bottom: 20px; }
+    .footer_logo {
+      width: 10px; }
+    .pie-2 {
+      font-size: 0.6rem; }
+    .email {
+      width: 8px; }
+    .tele {
+      width: 8px; }
+    .mis-redes {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column; }
+    .redes {
+      width: 20px;
+      margin: 5px; }
+    .pie-3 {
+      font-size: 0.6rem; }
+    .footer_lista {
+      padding-top: 40px; }
+    .footer_lista_texto {
+      font-size: 0.7rem; }
+    h1 {
+      font-size: 2rem;
+      margin: 10px;
+      padding-top: 10px; }
+    .subtitulos {
+      font-size: 1.6rem;
+      margin: 10px;
+      padding: 10px 0; }
+    .parrafos {
+      font-size: 1.1rem;
+      margin: 10px;
+      padding: 0; }
+    .textoPasos {
+      font-size: 1.1rem;
+      margin: 10px; }
+    .subtitulosBody {
+      font-size: 1.3rem;
+      margin: 10px;
+      padding: 0 10px;
+      text-align: center; }
+    .parrafos-2 {
+      font-size: 1.2rem;
+      margin: 5px;
+      padding: 10px;
+      text-align: justify; }
+    .parrafos-3 {
+      font-size: 1.1rem; }
+    .subtitulos-tu-mapa {
+      text-align: center; }
+    .parrafo-foto {
+      width: 130px;
+      margin: 0;
+      padding: 0; }
+    .pasosMapa {
+      margin: 10px 0;
+      padding: 0 5px; }
+    .icono {
+      width: 2px;
+      padding: 2px; }
+    .mapaPasos {
+      margin: 10px; }
+    .boton-enviar {
+      margin: 10px 0; } }
+  
+  /* iPad */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .logo_nav {
+      width: 140px; }
+    .nav-fuente {
+      font-size: 0.7rem; }
+    .parrafo-foto {
+      width: 250px;
+      margin-left: 100px;
+      padding: 10px; } }
+  
+  /* PC */
+  @media only screen and (min-width: 1024px) {
+    .nav-fuente {
+      font-size: 1rem; } }
+  
+  .anim-1 {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s ease-in-out; }
+  
+  .anim-1:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out; }
+  
+  .contenedor-pasos:hover .overlay {
+    opacity: 1; }
+  
+  /* Estilos encabezado */
+  .mi-nav-color {
+    background-image: url(../img/fondo_header_final.jpg);
+    background-size: cover; }
+  
+  .logo_nav {
+    width: 180px; }
+  
+  .nav-fuente {
+    font-size: 1.1rem; }
+  
+  /* Estilos página Tu Mapa y Contacto */
+  .estilos {
+    border: solid 0.5px #c4c2c2;
+    border-radius: 5px; }
+  
+  /* Footer*/
+  .footer_logo {
+    width: 150px; }
+  
