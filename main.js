@@ -26,7 +26,7 @@ let opcion = prompt("Ingresá 1, si deseas iniciar/continuar tu pedido o, Enter 
 
 while (opcion == "1") {
     const tipo = prompt("Ingresá el tipo de ilustración que deseas (digital o artesanal):");
-    const tamano = prompt("¿Qué tamaño deseás (A4, 20x30 ó 30x40?):");
+    const tamano = prompt("¿Qué tamaño deseás? (artesanal solo A4) (digital A4, 20x30 ó 30x40):");
 
     switch (tipo) {
             case "artesanal":
@@ -35,7 +35,6 @@ while (opcion == "1") {
                 }
                 else {
                     precio = 0;
-                    alert ("La ilustración artesanal solo viene en tamaño A4");
                 }
                 break;
             
@@ -65,8 +64,8 @@ while (opcion == "1") {
 
 console.log(tiendaOnLine);
 
-const preciosProductos = tiendaOnLine.map(producto => producto.precio);
+let totalPedido = tiendaOnLine.productos.reduce((acumulador, elemento) => 
+acumulador + elemento.precio, 0);
 
-console.log(preciosProductos);
-
+console.log("El total de tu pedido es $" + totalPedido);
 
