@@ -35,6 +35,7 @@ while (opcion == "1") {
                 }
                 else {
                     precio = 0;
+                    alert ("La ilustración artesanal solo viene en tamaño A4");
                 }
                 break;
             
@@ -64,8 +65,8 @@ while (opcion == "1") {
 
 console.log(tiendaOnLine);
 
-let totalPedido = tiendaOnLine.reduce((acumulador, tiendaOnLine[precio]) => acumulador + tiendaOnLine[precio], 0);
-    
-console.log("El total de tu compra es " + totalPedido);
+const preciosProductos = tiendaOnLine.map(producto => producto.precio);
+
+console.log(preciosProductos);
 
 
